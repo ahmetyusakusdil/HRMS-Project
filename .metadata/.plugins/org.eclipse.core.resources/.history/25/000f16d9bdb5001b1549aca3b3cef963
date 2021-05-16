@@ -1,0 +1,21 @@
+package hrmsProject.hrms.entities.concretes;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Table(name="candidates")
+@Data
+public class Candidate {
+
+	private int Id;
+	private String firstName;
+	private String lastName;
+	private String identificationNumber;
+	private Date birthDate;
+
+}

@@ -1,0 +1,5 @@
+package hrmsProject.hrms.business.concretes;
+
+public class JobTitleManager {
+
+}

@@ -1,0 +1,13 @@
+package hrmsProject.hrms.entities.concretes;
+
+import lombok.Data;
+
+
+public @Data class User {
+
+	private int Id;
+	private String emailAdress;
+	private String password;
+	
+	
+}

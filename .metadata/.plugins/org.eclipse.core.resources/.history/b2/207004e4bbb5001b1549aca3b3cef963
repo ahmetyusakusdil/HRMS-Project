@@ -1,0 +1,23 @@
+package hrmsProject.hrms.entities.concretes;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name="Users")
+public class User {
+
+	@Column(name="id")
+	private int Id;
+	
+	@Column(name="email_address")
+	private String emailAdress;
+	
+	@Column(name="password")
+	private String password;
+		
+}

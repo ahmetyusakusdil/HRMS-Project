@@ -1,0 +1,5 @@
+package hrmsProject.hrms.entities.concretes;
+
+public class User {
+
+}

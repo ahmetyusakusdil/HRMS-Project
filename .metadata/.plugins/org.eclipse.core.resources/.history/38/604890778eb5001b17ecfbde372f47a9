@@ -1,0 +1,11 @@
+package hrmsProject.hrms.entities.concretes;
+
+
+public  class User {
+
+	private int Id;
+	private String emailAdress;
+	private String password;
+	
+	
+}
