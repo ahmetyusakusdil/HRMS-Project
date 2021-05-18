@@ -1,0 +1,5 @@
+package hrmsProject.hrms.dataAccess.abstracts;
+
+public interface JobTitleDao {
+
+}
